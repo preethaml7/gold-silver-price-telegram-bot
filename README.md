@@ -3,6 +3,8 @@
 SpringBoot application that scrapes gold and silver price from a website and sends a telegram message at the scheduled
 time.
 
+-- Sample Telegram Message can be found in the repository with filename 'telegram-msg.jpg'
+
 Instructions on how to run the application are below:
 
 1) Add telegram token and chat-id in the application.yml file
@@ -34,7 +36,5 @@ services:
 Docker run command:
 docker run -dit --name gold-silver-price-telegram-bot gold-silver-price-telegram-bot:v1.0.0
 
-Telegram Message:
-![Telegram Message](sample-telegram-msg.jpg)
 
 
