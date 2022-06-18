@@ -35,6 +35,6 @@ Docker run command:
 docker run -dit --name gold-silver-price-telegram-bot gold-silver-price-telegram-bot:v1.0.0
 
 Telegram Message:
-![Telegram Message](sample-telegram-msg.png)
+![Telegram Message](sample-telegram-msg.jpg)
 
 
